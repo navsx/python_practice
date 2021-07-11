@@ -1,0 +1,12 @@
+import numpy as np
+print("hello")
+for line in open("demo.txt"):
+    pass
+    #print(line)
+l1=[np.random.rand(10)]
+f=open("newfile.txt",'w')
+f.write(str(l1))
+f.close()
+
+for line2 in open("newfile.txt"):
+    
